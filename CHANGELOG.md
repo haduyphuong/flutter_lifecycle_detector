@@ -1,6 +1,3 @@
-## 0.0.1
+## 0.0.3
 
 * Release plugin
-
-## 0.0.2
-* Change home page
