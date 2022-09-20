@@ -7,7 +7,7 @@ Add package to project:
 
 This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
 
-```flutter_lifecycle_detector: ^0.0.2```
+```flutter_lifecycle_detector: ^0.0.3```
 
 ## Detect background mode
 
