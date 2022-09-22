@@ -17,7 +17,7 @@ public class SwiftFlutterLifecycleDetectorPlugin: NSObject, FlutterPlugin, Flutt
         
         notificationCenter.addObserver(instance, selector: #selector(didEnterBackground), name: UIApplication.didEnterBackgroundNotification, object: nil)
         
-        notificationCenter.addObserver(instance, selector: #selector(willEnterForeground), name: UIApplication.didBecomeActiveNotification, object: nil)
+        notificationCenter.addObserver(instance, selector: #selector(willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
     }
     
     

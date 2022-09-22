@@ -8,7 +8,7 @@ void main() {
 }
 
 class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   State<MyApp> createState() => _MyAppState();
@@ -18,7 +18,6 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     FlutterLifecycleDetector().onBackgroundChange.listen((event) {
-
       // $event is true => background
       // $event is true => foreground
       log('Status background $event');
