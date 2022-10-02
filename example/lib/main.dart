@@ -17,10 +17,10 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   void initState() {
-    FlutterLifecycleDetector().onBackgroundChange.listen((event) {
-      // $event is true => background
-      // $event is true => foreground
-      log('Status background $event');
+    FlutterLifecycleDetector().onBackgroundChange.listen((isBackground) {
+      /// `isBackground` is true => background
+      /// `isBackground` is false => foreground
+      log('Status background $isBackground');
     });
     super.initState();
   }
