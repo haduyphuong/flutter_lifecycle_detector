@@ -15,11 +15,11 @@ class FlutterLifecycleDetector {
 
   static void _lifeCycleListener() {
     // Get data stream from native with event channel.
-    _eventChannel.receiveBroadcastStream().listen((event) {
-      // $event is true => background
-      // $event is true => foreground
+    _eventChannel.receiveBroadcastStream().listen((isBackground) {
+      /// `isBackground` is true => background
+      /// `isBackground` is false => foreground
       // Push data to stream
-      _streamController.sink.add(event == 'background');
+      _streamController.sink.add(isBackground == 'background');
     });
   }
 

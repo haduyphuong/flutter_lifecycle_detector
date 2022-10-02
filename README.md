@@ -7,15 +7,15 @@ Add package to project:
 
 This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
 
-```flutter_lifecycle_detector: ^0.0.4```
+```flutter_lifecycle_detector: ^0.0.5```
 
 ## Detect background mode
 
 ```
 FlutterLifecycleDetector().onBackgroundChange.listen((event) {
 
-  // $event is true => background
-  // $event is true => foreground
+  /// `isBackground` is true => background
+  /// `isBackground` is false => foreground
   log('Status background $event');
 });
 ```
@@ -43,8 +43,8 @@ class _MyAppState extends State<MyApp> {
     // Detect mode background
     FlutterLifecycleDetector().onBackgroundChange.listen((event) {
 
-      // $event is true => background
-      // $event is true => foreground
+      /// `isBackground` is true => background
+      /// `isBackground` is false => foreground
       log('Status background $event');
     });
     super.initState();
