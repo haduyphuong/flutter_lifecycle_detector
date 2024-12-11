@@ -1,11 +1,3 @@
-## 0.0.3
+## 0.0.1
 
-* Release plugin
-
-## 0.0.4
-
-* Fix mode background ios
-
-## 0.0.6
-
-* Update README.md
+* TODO: Describe initial release.

@@ -1,4 +1,4 @@
-package com.ngovang.flutter_lifecycle_detector;
+package com.lifecycle.detector.flutter_lifecycle_detector;
 
 
 import androidx.annotation.NonNull;

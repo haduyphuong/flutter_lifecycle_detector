@@ -1,4 +1,4 @@
-package com.ngovang.flutter_lifecycle_detector_example;
+package com.lifecycle.detector.flutter_lifecycle_detector_example;
 
 import io.flutter.embedding.android.FlutterActivity;
 
