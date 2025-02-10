@@ -1,11 +1,11 @@
 name: flutter_lifecycle_detector
 description: A plugin flutter detect app entering background or foreground mode.
-version: 0.0.6
+version: 0.0.8
 homepage: https://github.com/haduyphuong/flutter_lifecycle_detector
 
 environment:
-  sdk: '>=2.16.0 <3.0.0'
-  flutter: ">=2.5.0"
+  sdk: ^3.0.0
+  flutter: '>=3.3.0'
 
 dependencies:
   flutter:
